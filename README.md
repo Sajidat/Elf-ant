@@ -1,65 +1,33 @@
-﻿# Elf-ant
+# Elf-ant
 
-**Une aventure pour apprendre, jouer et grandir.**
+**Application web éducative intelligente et sécurisée destinée aux enfants de 3 à 12 ans.**
 
-Elf-ant est une plateforme éducative destinée aux enfants de 3 à 12 ans.
-Elle associe apprentissage scolaire, jeux éducatifs et progression adaptée
-à l'âge et au niveau de chaque enfant.
+Elf-ant propose des activités pédagogiques interactives en **mathématiques, français, sciences et anglais**, avec des quiz, des jeux éducatifs, un assistant pédagogique IA encadré et un système de récompenses. Un espace parent permet de gérer les profils et de suivre les apprentissages.
 
-## Vision du produit
+**Elf-ant — Apprendre en s'amusant, grandir en confiance.**
 
-Créer un environnement numérique ludique, accessible, sécurisé et adapté
-aux besoins des enfants et de leurs parents.
+## Public et parcours
+- **3–5 ans :** découverte par le jeu, consignes courtes et interactions simples.
+- **6–8 ans :** apprentissage guidé, exercices progressifs et encouragements.
+- **9–12 ans :** activités plus autonomes et progression détaillée.
 
-## Public cible
+## Identité visuelle
+L'identité Elf-ant est chaleureuse, ludique, accessible et rassurante. Elle repose sur une mascotte éléphant stylisée et une palette cohérente :
 
-- 3–5 ans : découverte et apprentissages fondamentaux.
-- 6–8 ans : consolidation des connaissances.
-- 9–12 ans : approfondissement et autonomie.
+| Couleur | Code |
+|---|---|
+| Violet principal | `#5527A5` |
+| Jaune | `#FFC629` |
+| Turquoise | `#20B9C7` |
+| Corail | `#F46C91` |
+| Crème | `#FFF1D9` |
 
-## Fonctionnalités prévues
+- Logo vectoriel : [`brand/elfant-logo.svg`](brand/elfant-logo.svg)
+- Variables CSS : [`brand/tokens.css`](brand/tokens.css)
+- Charte graphique : [`docs/IDENTITE_VISUELLE.md`](docs/IDENTITE_VISUELLE.md)
 
-- Comptes parents et profils enfants.
-- Parcours éducatifs personnalisés.
-- Jeux de mathématiques, vocabulaire et mémoire.
-- Progression et récompenses éducatives.
-- Tableau de bord parental.
-- Application web responsive et PWA.
+## Documentation projet
+- [Cahier des charges fonctionnel et technique](docs/cahier-des-charges.md)
 
-## Modèle économique
-
-Freemium : fonctionnalités éducatives essentielles gratuites,
-avec des options premium destinées aux parents.
-
-## Architecture technique cible
-
-- Frontend : React, TypeScript, Vite.
-- Backend : Python, FastAPI, Pydantic.
-- Base de données : PostgreSQL.
-- Conteneurisation : Docker.
-- Tests : Pytest, Vitest et Playwright.
-- Déploiement : environnement sécurisé et évolutif.
-
-## Sécurité et confidentialité
-
-Elf-ant adopte une approche Security by Design et Privacy by Design.
-
-Principes :
-- Protection des données des enfants.
-- Contrôle parental.
-- Minimisation des données collectées.
-- Authentification et contrôle des accès.
-- Sauvegardes et tests de restauration.
-- Absence de publicité comportementale destinée aux enfants.
-
-Les obligations réglementaires applicables seront évaluées pendant
-la conception et avant la mise en production.
-
-## Organisation du projet
-
-Le projet est développé progressivement, en commençant par un MVP
-fonctionnel avant l'ajout des fonctionnalités avancées.
-
-## Statut
-
-En cours de conception et de développement.
+## Principes de conception
+La sécurité et la protection de la vie privée des enfants sont intégrées dès la conception : minimisation des données, contrôle parental, séparation des profils, absence de publicité comportementale, de profils publics et de messagerie publique entre enfants. Les fonctions commerciales éventuelles sont réservées à l'espace parent.

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 156" role="img" aria-labelledby="elfant-title elfant-desc">
+  <title id="elfant-title">Elf-ant</title>
+  <desc id="elfant-desc">Un éléphant turquoise souriant accompagné du nom Elf-ant en violet.</desc>
+  <g transform="translate(12 8)">
+    <circle cx="70" cy="70" r="64" fill="#FFF1D9"/>
+    <path d="M24 76c0-29 20-50 47-50 25 0 44 17 47 42 2 17-5 31-17 40-8 6-17 9-28 9H55c-18 0-31-15-31-33V76Z" fill="#20B9C7"/>
+    <path d="M33 76c-15-5-23 4-21 17 2 13 12 22 25 20l11-8-4-22-11-7Z" fill="#20B9C7"/>
+    <path d="M40 43c-8-14-2-26 10-28 13-2 22 10 21 24" fill="#20B9C7"/>
+    <path d="M91 43c9-13 22-13 29-3 7 10 2 22-10 29" fill="#20B9C7"/>
+    <circle cx="88" cy="63" r="5" fill="#28243A"/>
+    <circle cx="89.5" cy="61.5" r="1.5" fill="#FFFFFF"/>
+    <path d="M66 91c7 7 17 7 24 0" fill="none" stroke="#5527A5" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="42" cy="84" r="6" fill="#F46C91"/>
+    <path d="m119 18 5-11 5 11 11 5-11 5-5 11-5-11-11-5 11-5Z" fill="#FFC629"/>
+  </g>
+  <text x="164" y="98" fill="#5527A5" font-family="Nunito, system-ui, sans-serif" font-size="72" font-weight="900" letter-spacing="-2.5">Elf-ant</text>
+  <path d="M170 119h210" stroke="#20B9C7" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="393" cy="119" r="4.5" fill="#FFC629"/>
+</svg>

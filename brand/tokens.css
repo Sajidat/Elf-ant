@@ -1,0 +1,54 @@
+:root {
+  --elfant-violet: #5527A5;
+  --elfant-yellow: #FFC629;
+  --elfant-turquoise: #20B9C7;
+  --elfant-coral: #F46C91;
+  --elfant-cream: #FFF1D9;
+  --elfant-ink: #28243A;
+  --elfant-white: #FFFFFF;
+
+  --elfant-page: var(--elfant-cream);
+  --elfant-surface: var(--elfant-white);
+  --elfant-text: var(--elfant-ink);
+  --elfant-muted: #716C7E;
+  --elfant-border: #E8E2EF;
+
+  --elfant-font-family: "Nunito", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --elfant-radius-sm: 12px;
+  --elfant-radius-md: 16px;
+  --elfant-radius-lg: 24px;
+  --elfant-radius-pill: 999px;
+  --elfant-shadow-card: 0 8px 24px rgb(40 36 58 / 8%);
+  --elfant-focus: 0 0 0 3px rgb(32 185 199 / 40%);
+}
+
+html {
+  color: var(--elfant-text);
+  background: var(--elfant-page);
+  font-family: var(--elfant-font-family);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button, input, select, textarea {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--elfant-turquoise);
+  outline-offset: 3px;
+  box-shadow: var(--elfant-focus);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
